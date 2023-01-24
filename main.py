@@ -53,6 +53,13 @@ def search_browser(browser):
     time.sleep(1.5)
     pg.press('enter')
     time.sleep(1.5)
+    pg.hotkey('ctrl', 't')
+    time.sleep(0.5)
+    pg.hotkey('alt', 'd')
+    pg.write('https://www.xbox.com/pt-BR/play/launch/fortnite/BT5P2X999VH2')
+    time.sleep(1.5)
+    pg.press('enter')
+    time.sleep(2)
 
 
 
